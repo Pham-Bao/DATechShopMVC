@@ -2240,6 +2240,7 @@
     <Content Include="Areas\Admin\Views\NguoiDung\DangKyTaiKhoan.cshtml" />
     <Content Include="Areas\Admin\Views\SanPham\ThongKe.cshtml" />
     <Content Include="Areas\Admin\Views\HoaDon\DanhSachHoaDon.cshtml" />
+    <Content Include="Areas\Admin\Views\NguoiDung\Verify.cshtml" />
     <None Include="packages.config" />
     <Content Include="Views\MuaHang\row.cshtml" />
     <Content Include="Views\KhuyenMaiUser\DanhSachKM.cshtml" />
