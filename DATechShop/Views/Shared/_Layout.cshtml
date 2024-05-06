@@ -402,23 +402,24 @@
         z-index: 9999;
     }
 
-    
-   
+
+
 
     .alert {
-        position: fixed; 
-        top: 80px; 
-        right: 50px; 
-        z-index: 1000; 
+        position: fixed;
+        top: 80px;
+        right: 50px;
+        z-index: 1000;
         border-radius: 5px;
     }
+
     .white-bg {
         background-color: #ffffff; /* Màu nền trắng */
     }
+
     .table-responsive {
         overflow-x: auto; /* Cho phép cuộn ngang nếu bảng quá rộng */
     }
-
 </style>
 
 
@@ -482,3 +483,8 @@
 
 
 </script>
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger intent="WELCOME"
+              chat-title="TechShop_AI"
+              agent-id="5ce6fd26-8729-4f56-a042-8f2527e66f5e"
+              language-code="vi"></df-messenger>
